@@ -14,7 +14,7 @@ public class BaseClass {
 	
 	private static ThreadLocal<WebDriver> threadlocal = new ThreadLocal<WebDriver>();
 	
-	private static Properties prop;
+	public static Properties prop;
 	public static WebDriver getDriver() {
 		
 		return threadlocal.get();
